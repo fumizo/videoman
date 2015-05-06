@@ -27,6 +27,8 @@
 
 @implementation THTimeline
 
+//musicitemsを入れてる
+
 - (BOOL)isSimpleTimeline {
 	for (THAudioItem *item in self.musicItems) {
 		if (item.volumeAutomation.count > 0) {

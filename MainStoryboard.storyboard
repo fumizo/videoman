@@ -20,20 +20,20 @@
                                     <segue destination="T8f-u0-FX1" kind="embed" id="8C7-ay-sGc"/>
                                 </connections>
                             </containerView>
-                            <containerView contentMode="scaleToFill" id="BZ1-T8-e9Z">
-                                <rect key="frame" x="359" y="0.0" width="665" height="429"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <connections>
-                                    <segue destination="rMf-4V-FaP" kind="embed" id="0HA-aI-NxB"/>
-                                </connections>
-                            </containerView>
                             <containerView contentMode="scaleToFill" id="swJ-GP-gYs">
                                 <rect key="frame" x="0.0" y="429" width="1024" height="344"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
                                     <segue destination="6OV-9l-kYh" kind="embed" id="HpA-7Y-nFI"/>
+                                </connections>
+                            </containerView>
+                            <containerView contentMode="scaleToFill" id="BZ1-T8-e9Z">
+                                <rect key="frame" x="359" y="0.0" width="665" height="429"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="rMf-4V-FaP" kind="embed" id="0HA-aI-NxB"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -62,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L2M-Qz-6Dt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="151" y="-908"/>
+            <point key="canvasLocation" x="201" y="-1197.5"/>
         </scene>
         <!--Player View Controller-->
         <scene sceneID="Gpw-RX-Zk9">

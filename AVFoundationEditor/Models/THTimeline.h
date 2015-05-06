@@ -22,10 +22,6 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //
 
-//いらないかも
-//#import "Manager.h"
-
-
 #import "THMediaItem.h"
 
 @interface THTimeline : NSObject

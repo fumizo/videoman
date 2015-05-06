@@ -135,7 +135,7 @@ static NSString * const THAudioItemCellID = @"THAudioItemCell";
 			[items addObject:item];
 		}
 		_musicItems = items;
-        //この中身がnillだよ 
+        //この中身がnillだよ
 	}
 	return _musicItems;
 }
@@ -158,7 +158,10 @@ static NSString * const THAudioItemCellID = @"THAudioItemCell";
 //bundleはリソース(画像とかxibとかオーディオとか)を管理するのに便利
 //指定したリソースのパスを取得してる
 - (NSArray *)musicURLs {
-	return [[NSBundle mainBundle] URLsForResourcesWithExtension:@"m4a" subdirectory:@"Music"];
+    //NSArray *hoge = [[NSBundle mainBundle] URLsForResourcesWithExtension:@"m4a" subdirectory:@"Music"];
+    //NSArray *huga = [[NSBundle mainBundle] URLsForResourcesWithExtension:@"m4a" subdirectory:nil];
+ //nilにすることで全部の中からm4aを全部持ってきた。bundle
+	return [[NSBundle mainBundle] URLsForResourcesWithExtension:@"m4a" subdirectory:nil];
     //サブディレクトリはmusicということ
 }
 - (NSArray *)voiceOverURLs {

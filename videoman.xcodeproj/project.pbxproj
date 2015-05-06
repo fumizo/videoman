@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4F095A981AF85AA2007EF20C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F095A971AF85AA2007EF20C /* MainStoryboard.storyboard */; };
+		4F9684541AF8A03400D0650B /* John F. Kennedy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4F96844E1AF8A03400D0650B /* John F. Kennedy.m4a */; };
+		4F9684551AF8A03400D0650B /* Ronald Reagan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4F96844F1AF8A03400D0650B /* Ronald Reagan.m4a */; };
+		4F9684561AF8A03400D0650B /* Steve Vai.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4F9684501AF8A03400D0650B /* Steve Vai.m4a */; };
+		4F9684571AF8A03400D0650B /* 01 Star Gazing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4F9684521AF8A03400D0650B /* 01 Star Gazing.m4a */; };
+		4F9684581AF8A03400D0650B /* 02 Keep Going.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4F9684531AF8A03400D0650B /* 02 Keep Going.m4a */; };
+		4F96845A1AF8AB6300D0650B /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9684591AF8AB6300D0650B /* iPhoneStoryboard.storyboard */; };
 		4FDC6D141AF73082006F8164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC6D131AF73082006F8164 /* main.m */; };
 		4FDC6D1A1AF73082006F8164 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC6D191AF73082006F8164 /* ViewController.m */; };
 		4FDC6D1F1AF73082006F8164 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC6D1E1AF73082006F8164 /* Images.xcassets */; };
@@ -72,11 +78,6 @@
 		4FDC70521AF73CEB006F8164 /* THVideoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC6F811AF73CEB006F8164 /* THVideoItem.m */; };
 		4FDC70531AF73CEB006F8164 /* THVideoTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC6F831AF73CEB006F8164 /* THVideoTransition.m */; };
 		4FDC70541AF73CEB006F8164 /* THVolumeAutomation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC6F851AF73CEB006F8164 /* THVolumeAutomation.m */; };
-		4FDC70551AF73CEB006F8164 /* John F. Kennedy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC6F891AF73CEB006F8164 /* John F. Kennedy.m4a */; };
-		4FDC70561AF73CEB006F8164 /* Ronald Reagan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC6F8A1AF73CEB006F8164 /* Ronald Reagan.m4a */; };
-		4FDC70571AF73CEB006F8164 /* Steve Vai.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC6F8B1AF73CEB006F8164 /* Steve Vai.m4a */; };
-		4FDC70581AF73CEB006F8164 /* 01 Star Gazing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC6F8D1AF73CEB006F8164 /* 01 Star Gazing.m4a */; };
-		4FDC70591AF73CEB006F8164 /* 02 Keep Going.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC6F8E1AF73CEB006F8164 /* 02 Keep Going.m4a */; };
 		4FDC705A1AF73CEB006F8164 /* app_black_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC6F901AF73CEB006F8164 /* app_black_background.png */; };
 		4FDC705B1AF73CEB006F8164 /* app_black_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC6F911AF73CEB006F8164 /* app_black_background@2x.png */; };
 		4FDC705C1AF73CEB006F8164 /* app_cell_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC6F921AF73CEB006F8164 /* app_cell_background.png */; };
@@ -219,6 +220,12 @@
 
 /* Begin PBXFileReference section */
 		4F095A971AF85AA2007EF20C /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../../MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4F96844E1AF8A03400D0650B /* John F. Kennedy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "John F. Kennedy.m4a"; sourceTree = "<group>"; };
+		4F96844F1AF8A03400D0650B /* Ronald Reagan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ronald Reagan.m4a"; sourceTree = "<group>"; };
+		4F9684501AF8A03400D0650B /* Steve Vai.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Steve Vai.m4a"; sourceTree = "<group>"; };
+		4F9684521AF8A03400D0650B /* 01 Star Gazing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 Star Gazing.m4a"; sourceTree = "<group>"; };
+		4F9684531AF8A03400D0650B /* 02 Keep Going.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "02 Keep Going.m4a"; sourceTree = "<group>"; };
+		4F9684591AF8AB6300D0650B /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
 		4FDC6D0E1AF73082006F8164 /* videoman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDC6D121AF73082006F8164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FDC6D131AF73082006F8164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -340,11 +347,6 @@
 		4FDC6F831AF73CEB006F8164 /* THVideoTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THVideoTransition.m; sourceTree = "<group>"; };
 		4FDC6F841AF73CEB006F8164 /* THVolumeAutomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THVolumeAutomation.h; sourceTree = "<group>"; };
 		4FDC6F851AF73CEB006F8164 /* THVolumeAutomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THVolumeAutomation.m; sourceTree = "<group>"; };
-		4FDC6F891AF73CEB006F8164 /* John F. Kennedy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "John F. Kennedy.m4a"; sourceTree = "<group>"; };
-		4FDC6F8A1AF73CEB006F8164 /* Ronald Reagan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ronald Reagan.m4a"; sourceTree = "<group>"; };
-		4FDC6F8B1AF73CEB006F8164 /* Steve Vai.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Steve Vai.m4a"; sourceTree = "<group>"; };
-		4FDC6F8D1AF73CEB006F8164 /* 01 Star Gazing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 Star Gazing.m4a"; sourceTree = "<group>"; };
-		4FDC6F8E1AF73CEB006F8164 /* 02 Keep Going.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "02 Keep Going.m4a"; sourceTree = "<group>"; };
 		4FDC6F901AF73CEB006F8164 /* app_black_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_black_background.png; sourceTree = "<group>"; };
 		4FDC6F911AF73CEB006F8164 /* app_black_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_black_background@2x.png"; sourceTree = "<group>"; };
 		4FDC6F921AF73CEB006F8164 /* app_cell_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_cell_background.png; sourceTree = "<group>"; };
@@ -517,6 +519,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F96844C1AF8A03400D0650B /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				4F96844D1AF8A03400D0650B /* Commentary */,
+				4F9684511AF8A03400D0650B /* Music */,
+			);
+			name = Audio;
+			path = ../../Audio;
+			sourceTree = "<group>";
+		};
+		4F96844D1AF8A03400D0650B /* Commentary */ = {
+			isa = PBXGroup;
+			children = (
+				4F96844E1AF8A03400D0650B /* John F. Kennedy.m4a */,
+				4F96844F1AF8A03400D0650B /* Ronald Reagan.m4a */,
+				4F9684501AF8A03400D0650B /* Steve Vai.m4a */,
+			);
+			path = Commentary;
+			sourceTree = "<group>";
+		};
+		4F9684511AF8A03400D0650B /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				4F9684521AF8A03400D0650B /* 01 Star Gazing.m4a */,
+				4F9684531AF8A03400D0650B /* 02 Keep Going.m4a */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		4FDC6D051AF73082006F8164 = {
 			isa = PBXGroup;
 			children = (
@@ -596,6 +627,7 @@
 		4FDC6F101AF73CEA006F8164 /* AVFoundationEditor */ = {
 			isa = PBXGroup;
 			children = (
+				4FDC6F861AF73CEB006F8164 /* Resources */,
 				4FDC6F111AF73CEB006F8164 /* AVFoundationEditor-Info.plist */,
 				4FDC6F121AF73CEB006F8164 /* AVFoundationEditor-Prefix.pch */,
 				4FDC6F131AF73CEB006F8164 /* Categories */,
@@ -606,7 +638,6 @@
 				4FDC6F571AF73CEB006F8164 /* Default@2x.png */,
 				4FDC6F581AF73CEB006F8164 /* InfoPlist.strings */,
 				4FDC6F5D1AF73CEB006F8164 /* Models */,
-				4FDC6F861AF73CEB006F8164 /* Resources */,
 				4FDC70021AF73CEB006F8164 /* Views */,
 			);
 			path = AVFoundationEditor;
@@ -788,39 +819,11 @@
 		4FDC6F861AF73CEB006F8164 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4FDC6F871AF73CEB006F8164 /* Audio */,
+				4F96844C1AF8A03400D0650B /* Audio */,
 				4FDC6F8F1AF73CEB006F8164 /* Images */,
 				4FDC6FFA1AF73CEB006F8164 /* Video */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		4FDC6F871AF73CEB006F8164 /* Audio */ = {
-			isa = PBXGroup;
-			children = (
-				4FDC6F8C1AF73CEB006F8164 /* Music */,
-				4FDC6F881AF73CEB006F8164 /* Commentary */,
-			);
-			path = Audio;
-			sourceTree = "<group>";
-		};
-		4FDC6F881AF73CEB006F8164 /* Commentary */ = {
-			isa = PBXGroup;
-			children = (
-				4FDC6F891AF73CEB006F8164 /* John F. Kennedy.m4a */,
-				4FDC6F8A1AF73CEB006F8164 /* Ronald Reagan.m4a */,
-				4FDC6F8B1AF73CEB006F8164 /* Steve Vai.m4a */,
-			);
-			path = Commentary;
-			sourceTree = "<group>";
-		};
-		4FDC6F8C1AF73CEB006F8164 /* Music */ = {
-			isa = PBXGroup;
-			children = (
-				4FDC6F8D1AF73CEB006F8164 /* 01 Star Gazing.m4a */,
-				4FDC6F8E1AF73CEB006F8164 /* 02 Keep Going.m4a */,
-			);
-			path = Music;
 			sourceTree = "<group>";
 		};
 		4FDC6F8F1AF73CEB006F8164 /* Images */ = {
@@ -961,6 +964,7 @@
 			isa = PBXGroup;
 			children = (
 				4F095A971AF85AA2007EF20C /* MainStoryboard.storyboard */,
+				4F9684591AF8AB6300D0650B /* iPhoneStoryboard.storyboard */,
 				4FDC70031AF73CEB006F8164 /* DDProgressView.h */,
 				4FDC70041AF73CEB006F8164 /* DDProgressView.m */,
 				4FDC70051AF73CEB006F8164 /* Models */,
@@ -1081,9 +1085,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FDC70581AF73CEB006F8164 /* 01 Star Gazing.m4a in Resources */,
 				4FDC70B01AF73CEB006F8164 /* tp_play_icon@2x.png in Resources */,
 				4FDC70C21AF73CEB006F8164 /* trans_btn_bg_xfade@2x.png in Resources */,
+				4F96845A1AF8AB6300D0650B /* iPhoneStoryboard.storyboard in Resources */,
 				4FDC707C1AF73CEB006F8164 /* Icon-Small.png in Resources */,
 				4FDC70B61AF73CEB006F8164 /* tp_round_button_small@2x.png in Resources */,
 				4FDC70701AF73CEB006F8164 /* avf_logo_large.png in Resources */,
@@ -1102,8 +1106,8 @@
 				4FDC70BD1AF73CEB006F8164 /* trans_btn_bg_none.png in Resources */,
 				4FDC70981AF73CEB006F8164 /* tapharmonic_logo@2x.png in Resources */,
 				4FDC70671AF73CEB006F8164 /* app_slate_background@2x.png in Resources */,
-				4FDC70551AF73CEB006F8164 /* John F. Kennedy.m4a in Resources */,
 				4FDC70911AF73CEB006F8164 /* pv_stop_icon@2x.png in Resources */,
+				4F9684571AF8A03400D0650B /* 01 Star Gazing.m4a in Resources */,
 				4FDC705C1AF73CEB006F8164 /* app_cell_background.png in Resources */,
 				4FDC706C1AF73CEB006F8164 /* app_white_background.png in Resources */,
 				4FDC705B1AF73CEB006F8164 /* app_black_background@2x.png in Resources */,
@@ -1135,22 +1139,23 @@
 				4FDC70C01AF73CEB006F8164 /* trans_btn_bg_push@2x.png in Resources */,
 				4FDC709C1AF73CEB006F8164 /* th_selector_ui_highlighted@2x.png in Resources */,
 				4FDC70961AF73CEB006F8164 /* table_view_header_background@2x.png in Resources */,
+				4F9684581AF8A03400D0650B /* 02 Keep Going.m4a in Resources */,
 				4FDC70C51AF73CEB006F8164 /* 01_Open.mov in Resources */,
-				4FDC70571AF73CEB006F8164 /* Steve Vai.m4a in Resources */,
 				4FDC70B31AF73CEB006F8164 /* tp_round_button.png in Resources */,
 				4FDC707F1AF73CEB006F8164 /* light_bar_button_background@2x.png in Resources */,
 				4FDC708F1AF73CEB006F8164 /* pv_play_icon@2x.png in Resources */,
-				4FDC70591AF73CEB006F8164 /* 02 Keep Going.m4a in Resources */,
 				4FDC70861AF73CEB006F8164 /* mp_stop_button.png in Resources */,
 				4FDC709E1AF73CEB006F8164 /* th_selector_ui_selected@2x.png in Resources */,
 				4FDC70C31AF73CEB006F8164 /* 00_Gas.mov in Resources */,
 				4FDC70B11AF73CEB006F8164 /* tp_rewind_icon.png in Resources */,
 				4FDC70AD1AF73CEB006F8164 /* tp_ff_icon.png in Resources */,
+				4F9684561AF8A03400D0650B /* Steve Vai.m4a in Resources */,
 				4FDC70601AF73CEB006F8164 /* app_gray_background.png in Resources */,
 				4FDC70821AF73CEB006F8164 /* mp_audio_icon_highlighted.png in Resources */,
 				4FDC707D1AF73CEB006F8164 /* Icon-Small@2x.png in Resources */,
 				4FDC70B41AF73CEB006F8164 /* tp_round_button@2x.png in Resources */,
 				4FDC70921AF73CEB006F8164 /* renio.png in Resources */,
+				4F9684541AF8A03400D0650B /* John F. Kennedy.m4a in Resources */,
 				4FDC70A31AF73CEB006F8164 /* THTabBarAudio.png in Resources */,
 				4FDC70C81AF73CEB006F8164 /* 04_Aerial.mp4 in Resources */,
 				4FDC70851AF73CEB006F8164 /* mp_play_button@2x.png in Resources */,
@@ -1163,9 +1168,9 @@
 				4FDC705D1AF73CEB006F8164 /* app_cell_background@2x.png in Resources */,
 				4FDC70B51AF73CEB006F8164 /* tp_round_button_small.png in Resources */,
 				4FDC70691AF73CEB006F8164 /* app_stone_background@2x.png in Resources */,
+				4F9684551AF8A03400D0650B /* Ronald Reagan.m4a in Resources */,
 				4FDC70661AF73CEB006F8164 /* app_slate_background.png in Resources */,
 				4FDC70791AF73CEB006F8164 /* export_progress_track_img@2x.png in Resources */,
-				4FDC70561AF73CEB006F8164 /* Ronald Reagan.m4a in Resources */,
 				4FDC706D1AF73CEB006F8164 /* app_white_background@2x.png in Resources */,
 				4FDC706B1AF73CEB006F8164 /* app_table_cell@2x.png in Resources */,
 				4FDC706F1AF73CEB006F8164 /* avf_logo@2x.png in Resources */,
@@ -1417,7 +1422,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -1435,7 +1440,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
