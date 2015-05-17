@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4F095A981AF85AA2007EF20C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F095A971AF85AA2007EF20C /* MainStoryboard.storyboard */; };
+		4F8586151B072E0100322043 /* AVCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F85860E1B072E0100322043 /* AVCaptureManager.m */; };
+		4F8586161B072E0100322043 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4F8586121B072E0100322043 /* SVProgressHUD.bundle */; };
+		4F8586171B072E0100322043 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8586141B072E0100322043 /* SVProgressHUD.m */; };
+		4F8586201B07339700322043 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F85861F1B07339700322043 /* RecordViewController.m */; };
 		4F9684541AF8A03400D0650B /* John F. Kennedy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4F96844E1AF8A03400D0650B /* John F. Kennedy.m4a */; };
 		4F9684551AF8A03400D0650B /* Ronald Reagan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4F96844F1AF8A03400D0650B /* Ronald Reagan.m4a */; };
 		4F9684561AF8A03400D0650B /* Steve Vai.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4F9684501AF8A03400D0650B /* Steve Vai.m4a */; };
@@ -220,6 +224,14 @@
 
 /* Begin PBXFileReference section */
 		4F095A971AF85AA2007EF20C /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../../MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4F85860D1B072E0100322043 /* AVCaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCaptureManager.h; sourceTree = "<group>"; };
+		4F85860E1B072E0100322043 /* AVCaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureManager.m; sourceTree = "<group>"; };
+		4F8586111B072E0100322043 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		4F8586121B072E0100322043 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		4F8586131B072E0100322043 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		4F8586141B072E0100322043 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		4F85861E1B07339700322043 /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		4F85861F1B07339700322043 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
 		4F96844E1AF8A03400D0650B /* John F. Kennedy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "John F. Kennedy.m4a"; sourceTree = "<group>"; };
 		4F96844F1AF8A03400D0650B /* Ronald Reagan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ronald Reagan.m4a"; sourceTree = "<group>"; };
 		4F9684501AF8A03400D0650B /* Steve Vai.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Steve Vai.m4a"; sourceTree = "<group>"; };
@@ -254,9 +266,8 @@
 		4FDC6F191AF73CEB006F8164 /* UIColor+THAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+THAdditions.m"; sourceTree = "<group>"; };
 		4FDC6F1A1AF73CEB006F8164 /* UIView+THAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THAdditions.h"; sourceTree = "<group>"; };
 		4FDC6F1B1AF73CEB006F8164 /* UIView+THAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THAdditions.m"; sourceTree = "<group>"; };
-		4FDC6F1D1AF73CEB006F8164 /* AppDelegate (TR iMac's conflicted copy 2014-01-20).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate (TR iMac's conflicted copy 2014-01-20).h"; sourceTree = "<group>"; };
-		4FDC6F1E1AF73CEB006F8164 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4FDC6F1F1AF73CEB006F8164 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FDC6F1E1AF73CEB006F8164 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AVFoundationEditor/Common/AppDelegate.h; sourceTree = "<group>"; };
+		4FDC6F1F1AF73CEB006F8164 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AVFoundationEditor/Common/AppDelegate.m; sourceTree = "<group>"; };
 		4FDC6F201AF73CEB006F8164 /* THNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THNotifications.h; sourceTree = "<group>"; };
 		4FDC6F211AF73CEB006F8164 /* THNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THNotifications.m; sourceTree = "<group>"; };
 		4FDC6F231AF73CEB006F8164 /* THTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTabBarButton.h; sourceTree = "<group>"; };
@@ -519,6 +530,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F85860B1B072D7F00322043 /* recordingVideo */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC6F1E1AF73CEB006F8164 /* AppDelegate.h */,
+				4FDC6F1F1AF73CEB006F8164 /* AppDelegate.m */,
+				4F85861E1B07339700322043 /* RecordViewController.h */,
+				4F85861F1B07339700322043 /* RecordViewController.m */,
+				4F85860C1B072E0100322043 /* AVCaptureManager */,
+				4F85860F1B072E0100322043 /* vendor */,
+			);
+			path = recordingVideo;
+			sourceTree = "<group>";
+		};
+		4F85860C1B072E0100322043 /* AVCaptureManager */ = {
+			isa = PBXGroup;
+			children = (
+				4F85860D1B072E0100322043 /* AVCaptureManager.h */,
+				4F85860E1B072E0100322043 /* AVCaptureManager.m */,
+			);
+			name = AVCaptureManager;
+			path = ../AVCaptureManager;
+			sourceTree = "<group>";
+		};
+		4F85860F1B072E0100322043 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				4F8586101B072E0100322043 /* SVProgressHUD */,
+			);
+			name = vendor;
+			path = ../vendor;
+			sourceTree = "<group>";
+		};
+		4F8586101B072E0100322043 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4F8586111B072E0100322043 /* SVProgressHUD-Prefix.pch */,
+				4F8586121B072E0100322043 /* SVProgressHUD.bundle */,
+				4F8586131B072E0100322043 /* SVProgressHUD.h */,
+				4F8586141B072E0100322043 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		4F96844C1AF8A03400D0650B /* Audio */ = {
 			isa = PBXGroup;
 			children = (
@@ -551,6 +605,7 @@
 		4FDC6D051AF73082006F8164 = {
 			isa = PBXGroup;
 			children = (
+				4F85860B1B072D7F00322043 /* recordingVideo */,
 				4FDC6F101AF73CEA006F8164 /* AVFoundationEditor */,
 				4FDC6D101AF73082006F8164 /* videoman */,
 				4FDC6D2A1AF73082006F8164 /* videomanTests */,
@@ -661,9 +716,6 @@
 		4FDC6F1C1AF73CEB006F8164 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				4FDC6F1D1AF73CEB006F8164 /* AppDelegate (TR iMac's conflicted copy 2014-01-20).h */,
-				4FDC6F1E1AF73CEB006F8164 /* AppDelegate.h */,
-				4FDC6F1F1AF73CEB006F8164 /* AppDelegate.m */,
 				4FDC6F201AF73CEB006F8164 /* THNotifications.h */,
 				4FDC6F211AF73CEB006F8164 /* THNotifications.m */,
 				4FDC6F221AF73CEB006F8164 /* THTabBar */,
@@ -963,8 +1015,8 @@
 		4FDC70021AF73CEB006F8164 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4F095A971AF85AA2007EF20C /* MainStoryboard.storyboard */,
 				4F9684591AF8AB6300D0650B /* iPhoneStoryboard.storyboard */,
+				4F095A971AF85AA2007EF20C /* MainStoryboard.storyboard */,
 				4FDC70031AF73CEB006F8164 /* DDProgressView.h */,
 				4FDC70041AF73CEB006F8164 /* DDProgressView.m */,
 				4FDC70051AF73CEB006F8164 /* Models */,
@@ -1143,6 +1195,7 @@
 				4FDC70C51AF73CEB006F8164 /* 01_Open.mov in Resources */,
 				4FDC70B31AF73CEB006F8164 /* tp_round_button.png in Resources */,
 				4FDC707F1AF73CEB006F8164 /* light_bar_button_background@2x.png in Resources */,
+				4F8586161B072E0100322043 /* SVProgressHUD.bundle in Resources */,
 				4FDC708F1AF73CEB006F8164 /* pv_play_icon@2x.png in Resources */,
 				4FDC70861AF73CEB006F8164 /* mp_stop_button.png in Resources */,
 				4FDC709E1AF73CEB006F8164 /* th_selector_ui_selected@2x.png in Resources */,
@@ -1247,8 +1300,11 @@
 				4FDC70381AF73CEB006F8164 /* THPlayerViewController.m in Sources */,
 				4FDC70261AF73CEB006F8164 /* THNotifications.m in Sources */,
 				4FDC703D1AF73CEB006F8164 /* THVideoPickerViewController.m in Sources */,
+				4F8586201B07339700322043 /* RecordViewController.m in Sources */,
+				4F8586151B072E0100322043 /* AVCaptureManager.m in Sources */,
 				4FDC70241AF73CEB006F8164 /* UIView+THAdditions.m in Sources */,
 				4FDC70531AF73CEB006F8164 /* THVideoTransition.m in Sources */,
+				4F8586171B072E0100322043 /* SVProgressHUD.m in Sources */,
 				4FDC703A1AF73CEB006F8164 /* THTimelineDataSource.m in Sources */,
 				4FDC70511AF73CEB006F8164 /* THTimelineItem.m in Sources */,
 				4FDC702C1AF73CEB006F8164 /* THTabBarView.m in Sources */,
@@ -1422,7 +1478,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1440,7 +1496,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
